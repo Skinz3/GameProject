@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Freak/Documents/Visual Studio 2013/Projects/GameProj/GameProj/Content/SmartBig.spritefont</SourceFile>
+  <SourceTime>2016-02-04T19:00:36.2176419+01:00</SourceTime>
+  <DestFile>C:/Users/Freak/Documents/Visual Studio 2013/Projects/GameProj/GameProj/Content/bin/Windows/SmartBig.xnb</DestFile>
+  <DestTime>2016-02-04T19:00:43.685069+01:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2015-04-29T19:14:44+02:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2015-04-29T19:14:44+02:00</ProcessorTime>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

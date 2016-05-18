@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{51525363-8B89-45A0-9E44-C2B9CEE0D820}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GameProj.Core</RootNamespace>
+    <AssemblyName>GameProj.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework, Version=3.4.0.456, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\GameProj\bin\Windows\Debug\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animations\AnimatorDefinition.cs" />
+    <Compile Include="Controls\Control.cs" />
+    <Compile Include="Controls\BarContent.cs" />
+    <Compile Include="Controls\PlayerInformationControl.cs" />
+    <Compile Include="Effects\Spells\BuffEffects.cs" />
+    <Compile Include="Effects\Spells\TriggeredEffects.cs" />
+    <Compile Include="Effects\Triggers\Trigger.cs" />
+    <Compile Include="Entities\Monsters\ActionsHelper.cs" />
+    <Compile Include="Entities\Monsters\BasicMonster.cs" />
+    <Compile Include="Entities\Monsters\MonstersSpawningPool.cs" />
+    <Compile Include="Entities\Projectiles\BoomrangProjectile.cs" />
+    <Compile Include="Entities\SpellBar.cs" />
+    <Compile Include="Core\AsyncRandom.cs" />
+    <Compile Include="Core\CooldownHandler.cs" />
+    <Compile Include="Effects\EffectHandlerAttribute.cs" />
+    <Compile Include="Effects\Spells\DamagesEffects.cs" />
+    <Compile Include="Effects\Spells\SpawnEffects.cs" />
+    <Compile Include="Effects\AcknoSpell.cs" />
+    <Compile Include="Entities\StatsOwnerEntity.cs" />
+    <Compile Include="Entities\EntityPopup.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Core\InputHandler.cs" />
+    <Compile Include="Core\UIDProvider.cs" />
+    <Compile Include="Entities\Projectiles\AnimatedProjectile.cs" />
+    <Compile Include="Entities\LCPAnimatedEntity.cs" />
+    <Compile Include="Entities\Entity.cs" />
+    <Compile Include="Entities\WObject.cs" />
+    <Compile Include="Entities\Projectiles\BasicProjectile.cs" />
+    <Compile Include="Entities\Monsters\Monster.cs" />
+    <Compile Include="Entities\Player.cs" />
+    <Compile Include="Entities\Projectiles\Projectile.cs" />
+    <Compile Include="Entities\StaticEntity.cs" />
+    <Compile Include="Environment\Cell.cs" />
+    <Compile Include="Environment\IsometricRenderer.cs" />
+    <Compile Include="Environment\Map.cs" />
+    <Compile Include="Environment\ShapeAttribute.cs" />
+    <Compile Include="Environment\ShapesProvider.cs" />
+    <Compile Include="Environment\World.cs" />
+    <Compile Include="Graphics\Camera.cs" />
+    <Compile Include="Graphics\CameraManager.cs" />
+    <Compile Include="Graphics\ExtendedSpriteBatch.cs" />
+    <Compile Include="Graphics\ResizedSprite.cs" />
+    <Compile Include="Graphics\Sprite.cs" />
+    <Compile Include="Graphics\GameCore.cs" />
+    <Compile Include="Interfaces\IObject.cs" />
+    <Compile Include="Animations\ULCP\ULCPAnimationType.cs" />
+    <Compile Include="Animations\ULCP\ULPCEntityAnimation.cs" />
+    <Compile Include="Animations\ULCP\ULCPBuilter.cs" />
+    <Compile Include="Animations\Animator.cs" />
+    <Compile Include="Items\Item.cs" />
+    <Compile Include="Items\ItemSpawningPool.cs" />
+    <Compile Include="Items\LifePotion.cs" />
+    <Compile Include="Items\ManaPotion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Effects\EffectsHandler.cs" />
+    <Compile Include="Stats\ReflectedStat.cs" />
+    <Compile Include="TestStock.cs" />
+    <Compile Include="UIRoot\UIManager.cs" />
+    <Compile Include="WorldEvents\CameraEvent.cs" />
+    <Compile Include="WorldEvents\IndependantAnimation.cs" />
+    <Compile Include="WorldEvents\TemporaryBuffEvent.cs" />
+    <Compile Include="WorldEvents\WObjectLinkedAnimation.cs" />
+    <Compile Include="WorldEvents\TemporaryString.cs" />
+    <Compile Include="WorldEvents\WorldEvent.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GameProj.Lib\GameProj.Lib.csproj">
+      <Project>{2a4d5490-b5a3-4b84-a8ee-173d2afda89d}</Project>
+      <Name>GameProj.Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

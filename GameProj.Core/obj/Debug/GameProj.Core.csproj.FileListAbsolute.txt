@@ -1,0 +1,81 @@
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\GameProj.Core.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\GameProj.Core.pdb
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.Core\obj\Debug\GameProj.Core.csprojResolveAssemblyReference.cache
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.Core\obj\Debug\GameProj.Core.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.Core\obj\Debug\GameProj.Core.pdb
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\GameProj.Lib.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\GameProj.Lib.pdb
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\MonoGame.Framework.dll
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.dll
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.XInput.dll
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.RawInput.dll
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\MonoGame.Framework.xml
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.xml
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.DXGI.xml
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.XInput.xml
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.RawInput.xml
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct3D9.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\GameProj.Core.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\GameProj.Core.pdb
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\GameProj.Lib.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\MonoGame.Framework.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.MediaFoundation.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.XAudio2.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct3D11.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.DXGI.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct2D1.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.XInput.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.RawInput.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct3D9.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\GameProj.Lib.pdb
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\MonoGame.Framework.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.MediaFoundation.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.XAudio2.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct3D11.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.DXGI.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct2D1.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.XInput.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.RawInput.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct3D9.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\obj\Debug\GameProj.Core.csprojResolveAssemblyReference.cache
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\obj\Debug\GameProj.Core.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Core\obj\Debug\GameProj.Core.pdb
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\GameProj.Core.dll
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\GameProj.Core.pdb
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\GameProj.Lib.dll
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\MonoGame.Framework.dll
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.dll
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.XInput.dll
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.RawInput.dll
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\GameProj.Lib.pdb
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\MonoGame.Framework.xml
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.xml
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.DXGI.xml
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.XInput.xml
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.RawInput.xml
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\obj\Debug\GameProj.Core.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\obj\Debug\GameProj.Core.dll
+C:\Users\Skinz\Desktop\GameProj\GameProj.Core\obj\Debug\GameProj.Core.pdb

@@ -1,0 +1,10 @@
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.Lib\bin\Debug\GameProj.Lib.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.Lib\bin\Debug\GameProj.Lib.pdb
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.Lib\obj\Debug\GameProj.Lib.csprojResolveAssemblyReference.cache
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.Lib\obj\Debug\GameProj.Lib.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.Lib\obj\Debug\GameProj.Lib.pdb
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Lib\bin\Debug\GameProj.Lib.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Lib\bin\Debug\GameProj.Lib.pdb
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Lib\obj\Debug\GameProj.Lib.csprojResolveAssemblyReference.cache
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Lib\obj\Debug\GameProj.Lib.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.Lib\obj\Debug\GameProj.Lib.pdb

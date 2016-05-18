@@ -1,0 +1,68 @@
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\GameProj.MapEditor.exe
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\GameProj.MapEditor.pdb
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\GameProj.Lib.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\MonoGame.Framework.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.XAudio2.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.Direct3D11.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.DXGI.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.Direct2D1.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.XInput.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.RawInput.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.Direct3D9.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\GameProj.Lib.pdb
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\MonoGame.Framework.xml
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.xml
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.XAudio2.xml
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.Direct3D11.xml
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.DXGI.xml
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.Direct2D1.xml
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.XInput.xml
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.RawInput.xml
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.Direct3D9.xml
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\obj\x86\Debug\GameProj.MapEditor.exe
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\obj\x86\Debug\GameProj.MapEditor.pdb
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\obj\x86\Debug\GameProj.MapEditor.csprojResolveAssemblyReference.cache
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\GameProj.Core.dll
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\GameProj.Core.pdb
+c:\Users\Freak\documents\visual studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\Content\Font.xnb
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\Content\900.png
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\Content\15123.png
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\Content\20432.png
+C:\Users\Freak\Documents\Visual Studio 2013\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\Content\defaultFont.xnb
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\Content\defaultFont.xnb
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\Content\15123.png
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\Content\20432.png
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\Content\900.png
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\Content\Font.xnb
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\GameProj.MapEditor.exe
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\GameProj.MapEditor.pdb
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\GameProj.Core.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\GameProj.Lib.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\MonoGame.Framework.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.XAudio2.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.Direct3D11.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.DXGI.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.Direct2D1.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.XInput.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.RawInput.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.Direct3D9.dll
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\GameProj.Core.pdb
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\GameProj.Lib.pdb
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\MonoGame.Framework.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.XAudio2.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.Direct3D11.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.DXGI.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.Direct2D1.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.XInput.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.RawInput.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\bin\Windows\Debug\SharpDX.Direct3D9.xml
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\obj\x86\Debug\GameProj.MapEditor.csprojResolveAssemblyReference.cache
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\obj\x86\Debug\GameProj.MapEditor.exe
+E:\Save Avant Restore\Projets Visual\Projects\GameProj\GameProj.MapEditor\obj\x86\Debug\GameProj.MapEditor.pdb
