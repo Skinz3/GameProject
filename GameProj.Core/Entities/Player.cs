@@ -27,20 +27,20 @@ namespace GameProj.Core.Entities
     {
 
         public int XP = 0;
-        
-      
-        public Player(World world, string spriteName, int cellid, StatsTemplate stats,List<SpellTemplate> spells)
-            : base(world, spriteName, cellid, stats,spells)
+
+
+        public Player(World world, string spriteName, int cellid, StatsTemplate stats, List<SpellTemplate> spells)
+            : base(world, spriteName, cellid, stats, spells)
         {
             CameraManager.Lock(Position);
             this.Speed = 3;
-            World.TemporaryString("Now Survive!", Color.Purple);
-       
+            World.TemporaryString("Now Survive!", Color.Purple,1);
+
         }
-      
+
         public override void Draw(GameTime time)
         {
-           
+
             base.Draw(time);
 
         }
@@ -53,7 +53,7 @@ namespace GameProj.Core.Entities
 
         public override void Die(Entity killer)
         {
-            World.TemporaryString("YOU ARE DEAD", Color.DarkRed,0.5f);
+            World.TemporaryString("YOU ARE DEAD", Color.DarkRed, 0.5f);
             base.Die(killer);
         }
         public void HandleLife()
@@ -62,7 +62,7 @@ namespace GameProj.Core.Entities
             var mstate = Mouse.GetState();
 
             Walking = false;
-            
+
             if (state.IsKeyDown(Keys.Q))
             {
                 this.Direction = DirectionsType.LEFT;
@@ -90,13 +90,13 @@ namespace GameProj.Core.Entities
 
                 World.AddEntity(new BasicMonster(World, 555));
             }
-            
+
             CheckSpellCast(mstate);
 
             if (CanExecuteAction)
                 EntityAnimation.PlayAnimation(EntityAnimationType.WALK, Direction);
 
-         
+
         }
 
         public SpellTemplate SelectedSpell = null;
@@ -104,7 +104,7 @@ namespace GameProj.Core.Entities
         void CheckSpellCast(MouseState state)
         {
             var keyBoardState = Keyboard.GetState();
-            
+
             if (keyBoardState.IsKeyDown(Keys.D1))
             {
                 SelectedSpell = TestStock.GetFireSpellTemplate();
@@ -125,11 +125,11 @@ namespace GameProj.Core.Entities
                     Cast(SelectedSpell, IsometricRenderer.Recalculate(state.Position));
             }
 
-         
+
         }
         public override void OnSpellCast()
         {
-          
+
             //AnimatorDefinition def = new AnimatorDefinition(GameCore.Load("bananaRay"), new Point(65, 80), 4, 12, true, 0);
             ////IndependantAnimation inde = new IndependantAnimation(def, Position,World, null);
             ////World.Events.Add(inde);
@@ -138,7 +138,7 @@ namespace GameProj.Core.Entities
 
             //     World.AddEntity(new AnimatedProjectile(this,World, "bananaRay", EyesPoint, EntityAnimation.CurrentAnimation.Key, 5, 9999, false, AnimatorDefinition.FromTemplate(1)));
             base.OnSpellCast();
-            
+
         }
         public override void Update(GameTime time)
         {
@@ -182,24 +182,40 @@ namespace GameProj.Core.Entities
         {
             Invulnerable(60);
             base.OnDamagesTaken(amount);
-
         }
+
+
+        /// <summary>
+        /// Fonction permettant au joueur de tenter un déplacement (ajout de coordonée à la position actuelle du joueur)
+        /// </summary>
+        /// <param name="xamount">Entier X ajouté (en pixels)</param>
+        /// <param name="yamount">Entier Y ajouté (en pixels)</param>
         void TryMove(int xamount, int yamount)
         {
-            Walking = true;
-            var pos = new Point(Position.X + xamount, Position.Y + yamount);
-            if (!World.Map.Renderer.IsPointOnBounds(pos))
+            this.Walking = true; // le joueur est en train de marcher
+
+            Point pos = new Point(this.Position.X + xamount, this.Position.Y + yamount); // nouvelle position éventuelle du joueur
+
+            if (World.Map.Renderer.IsPointOnBounds(pos) == false)// Si la nouvelle position fait partie de la carte
+            {
                 return;
+            }
+
             var cp = GetCellPoint();
             var collisionPoint = IsometricRenderer.RecalculateWhileLocked(new Point(cp.X + xamount, cp.Y + yamount));
+
+            // GetCellPoint(); et RecalculateWhileLocked(); permettent de calculer 
+            //la position réelle du point (en fonction de la position de la caméra)
+
             var cell = World.Map.Renderer.GetCell(collisionPoint);
-            if (cell != null && !cell.Walkable)
+
+            if (cell != null && !cell.Walkable) // si la cellule existe et n'est pas marchable 
             {
                 Console.WriteLine("on ne marche pas sur " + cell.Id);
-                return;
+                return; // return <=> le code a l'interieur de la fonction s'arrête, le reste n'est pas executé
 
             }
-            this.Position = pos;
+            this.Position = pos; // affecte la position du personnage a la nouvelle position définie
 
         }
         public override string GetName()

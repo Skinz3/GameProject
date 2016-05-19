@@ -70,7 +70,7 @@ namespace GameProj.Core.Environment
             position.X = (int)CameraManager.Cam.Position.X + GameCore.Batch.GraphicsDevice.Viewport.Width / 2;
             position.Y = (int)CameraManager.Cam.Position.Y + GameCore.Batch.GraphicsDevice.Viewport.Height / 2;
             Vector2 size = GameCore.GetFont("SmartBig").MeasureString(content);
-            AddEvent(new TemporaryString(this, position.SubCalibrate((int)size.X, (int)size.Y), "SmartBig", content, color, transparencyDecr));
+            AddEvent(new TemporaryString(this, position.SubCalibrate((int)size.X, (int)size.Y), "SmartBig", content, color, transparencyDecr),1);
         }
         void Map_OnCellOver(Cell obj)
         {
@@ -102,15 +102,17 @@ namespace GameProj.Core.Environment
             GameCore.Batch.End();
 
         }
+        /// <summary>
+        /// Rafraichit le monde (Fonction appelée 60 fois par secondes)
+        /// </summary>
+        /// <param name="time"></param>
         public void Update(GameTime time)
         {
-            Triggers.Update(time);
-            Entities.Update(time);
-            Items.Update(time);
-            ItemSpawningPool.Update(this, time);
-            MonstersSpawningPool.Update(this, time);
-            CooldownHandler.Update(time);
-            Events.Update(time);
+            Entities.Update(time); // Met a jour les entités du jeu
+            Items.Update(time);  // Met a jour la position, et le status des items sur la carte
+            ItemSpawningPool.Update(this, time); // Met a jour le spawn automatique d'item
+            MonstersSpawningPool.Update(this, time); // Met a jour le spawn automatique de monstres
+            CooldownHandler.Update(time); // Rafraîchit les actions en attente
         }
         public void AddEntity(Entity entity)
         {

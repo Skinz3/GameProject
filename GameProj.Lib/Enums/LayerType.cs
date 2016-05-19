@@ -7,9 +7,9 @@ namespace GameProj.Lib.Enums
 {
     public enum LayerType
     {
-        Ground,
-        Layer1,
-        Layer2,
-        Extras,
+        Ground, // Sol
+        Layer1, // Tile au niveau personnage (Arbustes, Feuilles etc)
+        Layer2, // Arbres, Maisons
+        Extras, // Décors en altitude, foreground
     }
 }

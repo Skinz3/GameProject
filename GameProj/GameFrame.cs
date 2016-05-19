@@ -17,15 +17,15 @@ namespace GameProj
     {
         GraphicsDeviceManager graphics { get; set; }
         public static ExtendedSpriteBatch spriteBatch { get; set; }
-       
+
         World World { get; set; }
 
         public GameFrame()
         {
-            
+
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-         //   graphics.ToggleFullScreen();
+            //   graphics.ToggleFullScreen();
             this.IsMouseVisible = true;
 
         }
@@ -38,7 +38,7 @@ namespace GameProj
         /// </summary>
         protected override void Initialize()
         {
-   
+
             // TODO: Add your initialization logic here
             base.Initialize();
         }
@@ -49,17 +49,14 @@ namespace GameProj
         /// </summary>
         protected override void LoadContent()
         {
-            // Create a new SpriteBatch, which can be used to draw textures.
-            spriteBatch = new ExtendedSpriteBatch(GraphicsDevice);
-             
-            CameraManager.Init(GraphicsDevice.Viewport);
-            GameCore.Initialize(Content, spriteBatch);
-            World = new World(spriteBatch);
-            // CameraManager.AddToPosition(-200, -200);
-    
+            spriteBatch = new ExtendedSpriteBatch(GraphicsDevice); // ExtendedSpriteBatch permet de dessiner des objets à l'écran
 
-     
-            // TODO: use this.Content to load your game content here
+            CameraManager.Init(GraphicsDevice.Viewport);  // Charge la caméra
+            GameCore.Initialize(Content, spriteBatch); // Charge les fichiers du jeu
+            World = new World(spriteBatch); // Instancie la variable de type World, qui gère tout l'environement du jeu
+
+
+
         }
 
         protected override void UnloadContent()
@@ -86,13 +83,11 @@ namespace GameProj
         protected override void Draw(GameTime gameTime)
         {
 
-            GraphicsDevice.Clear(Color.White);
+            GraphicsDevice.Clear(Color.CornflowerBlue);
             World.Draw(gameTime);
             GameCore.Draw(gameTime);
-
-
             GameCore.Batch.Begin();
-            GameCore.Batch.Draw(GameCore.Load("back").Gfx, spriteBatch.GraphicsDevice.Viewport.Bounds, Color.White*tr);
+            GameCore.Batch.Draw(GameCore.Load("back").Gfx, spriteBatch.GraphicsDevice.Viewport.Bounds, Color.White * tr);
             GameCore.Batch.End();
             tr -= 0.005f;
             base.Draw(gameTime);
